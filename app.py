@@ -21,7 +21,7 @@ def recommend(movie):
 
     return recommended_movies
 
-st.title("🎬 Movie Recommendation System")
+st.title("🎬 Movie Recommendation System ok ok ")
 
 selected_movie = st.selectbox(
     "Choose a movie",
@@ -31,4 +31,5 @@ selected_movie = st.selectbox(
 if st.button("Recommend"):
     recommendations = recommend(selected_movie)
     for movie in recommendations:
+
         st.write(movie)
